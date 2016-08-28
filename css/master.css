@@ -1,0 +1,36 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://totex445.files.wordpress.com/2013/05/final.png');
+}
+.navbar {
+    border-radius: 0;
+    margin-bottom: auto;
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+#jumbo {
+    color: rgb(255, 255, 255);
+    /*background-image: url('http://sprudge.com/wp-content/uploads/2015/06/sprudgegbgwebres-18.jpg');*/
+    background: none;
+    margin-top: : 0;
+    text-align: center;
+}
+#contactbtn {
+    background: none;
+    border: 2px solid;
+    border-radius: 24px;
+}
+#contactbtn:hover {
+    border: 2px solid rgb(0, 200, 200);
+    color: rgb(0, 200, 200)
+}
+#homebtn {
+    background: none;
+    border: 2px solid;
+    border-radius: 10px;
+    color: white;
+}
+#colorme {
+    color: white;
+}
