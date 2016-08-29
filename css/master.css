@@ -21,10 +21,10 @@ body {
     /*This makes the jumbotron full page width*/
 }
 #textcenter {
-  position: absolute;
-   top: 50%;
-   left:50%;
-   transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     /*Idk how the fuck this works but it centers it. Yay!*/
 }
 .jumbotron h3 {
@@ -53,7 +53,8 @@ body {
     color: white;
 }
 .thumbnail {
-    margin: 10px;
+    padding: 10px;
+    margin-top: 20px;
     background: none;
 }
 .thumbnail p, h3 {
