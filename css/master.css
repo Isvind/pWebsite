@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background-image: url('https://totex445.files.wordpress.com/2013/05/final.png');
+    background-image: url('https://www.iceland.nordicvisitor.com/images/1/sweden/old-town-gamla-stan-stockholm-sweden.jpg');
 }
 .navbar {
     border-radius: 0;
@@ -33,4 +33,20 @@ body {
 }
 #colorme {
     color: white;
+}
+.thumbnail {
+  margin: 10px;
+  background: none;
+
+}
+.thumbnail p, h3 {
+  color: white;
+
+}
+#macmockup {
+  width: 75%;
+  height: auto;
+}
+.tContainer {
+  background-color: black;
 }
