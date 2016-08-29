@@ -1,6 +1,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background-image: url('https://www.iceland.nordicvisitor.com/images/1/sweden/old-town-gamla-stan-stockholm-sweden.jpg');
+    background-image: url("http://www.walldevil.com/wallpapers/a77/background-retina-macbook-beautiful-backgrounds-images.jpg");
+    background-size: cover;
+    height: 100%;
 }
 .navbar {
     border-radius: 0;
@@ -9,12 +11,24 @@ body {
     background: transparent;
     border-color: transparent;
 }
-#jumbo {
-    color: rgb(255, 255, 255);
-    /*background-image: url('http://sprudge.com/wp-content/uploads/2015/06/sprudgegbgwebres-18.jpg');*/
+.jumbotron {
+    text-align: center;
+    color: white;
     background: none;
     margin-top: : 0;
     text-align: center;
+    height: 100vh;
+    /*This makes the jumbotron full page width*/
+}
+#textcenter {
+  position: absolute;
+   top: 50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+    /*Idk how the fuck this works but it centers it. Yay!*/
+}
+.jumbotron h3 {
+    color: white;
 }
 #contactbtn {
     background: none;
@@ -25,28 +39,30 @@ body {
     border: 2px solid rgb(0, 200, 200);
     color: rgb(0, 200, 200)
 }
-#homebtn {
+#colorme:hover {
     background: none;
     border: 2px solid;
     border-radius: 10px;
     color: white;
+    margin: 0;
 }
 #colorme {
     color: white;
 }
+#colormeb {
+    color: white;
+}
 .thumbnail {
-  margin: 10px;
-  background: none;
-
+    margin: 10px;
+    background: none;
 }
 .thumbnail p, h3 {
-  color: white;
-
+    color: black;
 }
 #macmockup {
-  width: 75%;
-  height: auto;
+    width: 75%;
+    height: auto;
 }
 .tContainer {
-  background-color: black;
+    background-color: white;
 }
