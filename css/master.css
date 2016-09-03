@@ -68,28 +68,42 @@ body {
     font-size: 550%;
     text-decoration: underline;
 }
-
 .title-info {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 #findoutButton {
-  border-radius: 0px;
-  background: none;
-  border: 3px solid rgb(231, 9, 76);
-  color: red;
+    border-radius: 0px;
+    background: none;
+    border: 3px solid rgb(231, 9, 76);
+    color: red;
 }
 .info-details {
-  column-count: 2;
-  text-align: justify;;
+    column-count: 2;
+    text-align: justify;
+    ;
+}
+#textrow {
+    margin-bottom: 70px;
 }
 
-#textrow {
-  margin-bottom: 70px;
-}
 /*end of first info */
 
+/*start of second info*/
+.hobby2 {
+  background: url('../rsc/bassimg.jpg');
+  color: white;
+}
+#music h1 {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-size: 550%;
+  text-decoration: underline;
+}
+
+/*end of second info*/
+
 #jumbotwo {
-    background: url("../rsc/low-poly-wallpaper-17.jpg");
+    background: url("../rsc/oldtown.jpg");
     color: white;
     height: 120vh;
     margin: 0px;
@@ -99,11 +113,10 @@ body {
     background-size: cover;
 }
 #jumbotwo h1 {
-  line-height: 100vh;
+    line-height: 100vh;
 }
-
 .thumbnail {
-  margin-top: 0px;
+    margin-top: 0px;
     background: none;
 }
 .thumbnail p, h3 {
