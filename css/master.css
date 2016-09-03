@@ -1,6 +1,9 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-image: url("../rsc/deer-background.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
 }
@@ -66,6 +69,15 @@ body {
     text-decoration: underline;
 }
 
+.title-info {
+  margin-bottom: 20px;
+}
+#findoutButton {
+  border-radius: 0px;
+  background: none;
+  border: 3px solid rgb(231, 9, 76);
+  color: red;
+}
 .info-details {
   column-count: 2;
   text-align: justify;;
@@ -77,13 +89,21 @@ body {
 /*end of first info */
 
 #jumbotwo {
-    background: none;
+    background: url("../rsc/low-poly-wallpaper-17.jpg");
     color: white;
-    height: 50vh;
+    height: 120vh;
+    margin: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+#jumbotwo h1 {
+  line-height: 100vh;
+}
+
 .thumbnail {
-    padding: 10px;
-    margin-top: 20px;
+  margin-top: 0px;
     background: none;
 }
 .thumbnail p, h3 {
